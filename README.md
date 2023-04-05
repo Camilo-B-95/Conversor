@@ -1,4 +1,8 @@
-## Getting Started
+## Conversor de unidades.
+<h1 align="center">Conversor de unidades.</h1>
+
+<h2>Descripción del proyecto</h2>
+<p>En este proyecto se hace la conversión de algunos valores de monedas, temperatura y longitud.</p>
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
