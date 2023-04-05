@@ -15,24 +15,24 @@ public class ConversorTemperatura {
                 ValorConvertido = ValorIngresado + 273.15;
             break;
 
-            case "K a ºC":
-                ValorConvertido = valorIngresado-273.15;
-            break;
-
             case "ºC a ºF":
                 ValorConvertido = (9/5)*valorIngresado+32;
-            break;
-
-            case "ºF a ºC":
-                ValorConvertido = (5/9)*(valorIngresado-32);
             break;
 
             case "K a ºF":
                 ValorConvertido = (9/5)*valorIngresado-459.67;
             break;
-            
+
+            case "K a ºC":
+                ValorConvertido = valorIngresado-273.15;
+            break;           
+
+            case "ºF a ºC":
+                ValorConvertido = ((valorIngresado-32)*5)/9;
+            break;
+
             case "ºF a K":
-                ValorConvertido = (5/9)*(valorIngresado+459.67);
+                ValorConvertido = ((valorIngresado + 459.67)*5)/9;
             break;            
         }
         return ValorConvertido;        

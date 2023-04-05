@@ -47,11 +47,8 @@ public class Conversor_main {
             }
             catch(Exception error) {
                 JOptionPane.showMessageDialog(null,"El valor ingresado debe ser un número.","Error",JOptionPane.WARNING_MESSAGE);
-            }
-            
-            continuar = JOptionPane.showConfirmDialog(null, "¿Desea continuar?");
-            System.out.println(continuar);
-            
+            }            
+            continuar = JOptionPane.showConfirmDialog(null, "¿Desea continuar?");            
         }
         if(continuar==1||continuar==2){
             JOptionPane.showMessageDialog(null, "Programa Terminado");
